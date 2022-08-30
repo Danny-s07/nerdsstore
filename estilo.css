@@ -3,6 +3,7 @@ body {
     padding: 0;
     margin: 0;
 }
+/* inicio configuracoes do menu */
 .navbar {
     position: relative;
    
@@ -47,6 +48,23 @@ a.linkmenu:hover
     margin: auto;
     cursor: pointer;
 }
+/* final configuracoes do menu */
+
+/* inicio configuracoes da home  */
+
+/* posicao da imagem */
+.imghome
+{
+    display: inline-block;/*uma div do lado da outra*/
+    margin-left: 100px;
+           
+}
+
+
+
+
+/* final configuracoes da home */
+
 
 /*responsividade funcionando a partir do maximo da tela de  500px */
 @media all and ( max-width: 500px ) { 
@@ -64,5 +82,11 @@ a.linkmenu:hover
         display: block;
         color: black;
     }
+
+    /* posicao da imagem */
+.imghome
+{
+    margin-bottom: 40px;
+}
 
 }
