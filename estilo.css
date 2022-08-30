@@ -24,6 +24,23 @@ body {
     color: black;
 }
 
+.tmimg
+{
+    width: 24px;
+    height: 24px;
+    padding: 1.6em;
+}
+
+.linkmenu
+{
+    text-decoration: none;
+    color: black;
+}
+
+a.linkmenu:hover
+{
+    font-weight: bold;
+}
 
 #toggle-nav {
     display: none;
