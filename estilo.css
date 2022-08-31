@@ -83,6 +83,27 @@ a.linkmenu:hover
     
 }
 
+/*configuracao para as paginas de compras (vestido,moletom e bota)*/
+
+.conteudocompra
+{
+    display: inline-block;
+     margin-left: 15px;
+
+}
+
+.compramulher
+{
+     width:300px;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+}
+
+.bt
+{
+    margin-top: -80px;
+}
 
 
 /* final configuracoes da home */
