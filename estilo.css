@@ -60,6 +60,12 @@ a.linkmenu:hover
            
 }
 
+.linkcompra
+{
+    font-size: 20px;
+    text-decoration: none;
+    
+}
 
 
 
@@ -67,7 +73,7 @@ a.linkmenu:hover
 
 
 /*responsividade funcionando a partir do maximo da tela de  500px */
-@media all and ( max-width: 500px ) { 
+@media  ( max-width: 500px ) { 
 
     .navbar {
         padding: 1.6em;
@@ -90,3 +96,30 @@ a.linkmenu:hover
 }
 
 }
+
+/*a partir de mil pixels ele tras os risquinhos do menu responsivo*/
+@media  ( max-width: 1000px ) { 
+
+    .navbar {
+        padding: 1.6em;
+    }
+
+    #navlist {
+        flex-direction: column;
+        display: none;
+    }
+
+    #toggle-nav {
+        display: block;
+        color: black;
+    }
+
+    /* posicao da imagem */
+.imghome
+{
+    margin-bottom: 40px;
+}
+
+}
+
+/* @media all and ( max-width: 500px ) */
