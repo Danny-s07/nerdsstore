@@ -114,39 +114,33 @@ a.linkmenu:hover
 }
 
 /*inicio das cores divs feminino*/
-#cor1f
+.corgeral /*classe com configuracao geral dos botoes de cor*/
 {
     width: 15px;
     height: 15px;
     border-radius: 7.5px;
-    background-color:#731F3E ;
+    border: none; 
+    cursor: pointer;
+}
+#cor1f
+{
+     background-color: rgba(115,31,62,1);
+   
 }
 #cor2f
 {
-    width: 15px;
-    height: 15px;
-    border-radius: 7.5px;
-    background-color:#400A23;
+   background-color:#400A23;
 }
 #cor3f
 {
-    width: 15px;
-    height: 15px;
-    border-radius: 7.5px;
-    background-color:#000000 ;
+   background-color:#000000 ;
 }
 #cor4f
 {
-    width: 15px;
-    height: 15px;
-    border-radius: 7.5px;
-    background-color:#E82C2C  ;
+   background-color:#E82C2C  ;
 }
 #cor5f
 {
-    width: 15px;
-    height: 15px;
-    border-radius: 7.5px;
     background-color: #6D58BE;
 }
 
