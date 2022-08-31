@@ -18,7 +18,8 @@ img
 
 /* inicio configuracoes do menu */
 .navbar {
-    position: relative;
+    /* position: relative; */
+   padding: 0px;
    
 }
 
@@ -87,36 +88,11 @@ a.linkmenu:hover
 /* final configuracoes da home */
 
 
-/*responsividade funcionando a partir do maximo da tela de  500px */
-/* @media  ( max-width: 500px ) { 
+/*a partir de mil pixels ele tras os risquinhos do menu responsivo, 425*/
+@media all and ( max-width: 800px ) { 
 
     .navbar {
-        padding: 1.6em;
-    }
-
-    #navlist {
-        flex-direction: column;
-        display: none;
-    }
-
-    #toggle-nav {
-        display: block;
-        color: black;
-    }
-
-    /* posicao da imagem 
-.imghome
-{
-    margin-bottom: 40px;
-}
-
-} */
-
-/*a partir de mil pixels ele tras os risquinhos do menu responsivo*/
-@media all and ( max-width: 425px ) { 
-
-    .navbar {
-        padding: 1.6em;
+         padding: 1.6em; 
     }
 
     #navlist {
