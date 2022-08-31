@@ -173,6 +173,25 @@ a.linkmenu:hover
 }
 /*final das cores dos  buttons masculino*/
 
+/*inicio das cores dos  buttons calcados*/
+#cor1b
+{
+    background-color: #0C0C0A;
+}
+#cor2b
+{
+    background-color: #6B280E;
+}
+#cor3b
+{
+    background-color: #591F12;
+}
+#cor4b
+{
+    background-color: #8C3A27;
+}
+/*final das cores dos  buttons calcados*/
+
 /*final configuracao para as paginas de compras (vestido,moletom e bota)*/
 
 /*a partir de mil pixels ele tras os risquinhos do menu responsivo, 425*/
