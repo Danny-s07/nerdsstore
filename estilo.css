@@ -1,8 +1,21 @@
 @charset "UTF-8";
+
+@-ms-viewport
+{
+    width: device-width;
+}
+
 body {
     padding: 0;
     margin: 0;
 }
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}
+
 /* inicio configuracoes do menu */
 .navbar {
     position: relative;
@@ -57,6 +70,8 @@ a.linkmenu:hover
 {
     display: inline-block;/*uma div do lado da outra*/
     margin-left: 100px;
+    margin-right: 0px;
+    text-align: none;
            
 }
 
@@ -73,7 +88,7 @@ a.linkmenu:hover
 
 
 /*responsividade funcionando a partir do maximo da tela de  500px */
-@media  ( max-width: 500px ) { 
+/* @media  ( max-width: 500px ) { 
 
     .navbar {
         padding: 1.6em;
@@ -89,16 +104,16 @@ a.linkmenu:hover
         color: black;
     }
 
-    /* posicao da imagem */
+    /* posicao da imagem 
 .imghome
 {
     margin-bottom: 40px;
 }
 
-}
+} */
 
 /*a partir de mil pixels ele tras os risquinhos do menu responsivo*/
-@media  ( max-width: 1000px ) { 
+@media all and ( max-width: 425px ) { 
 
     .navbar {
         padding: 1.6em;
@@ -117,9 +132,25 @@ a.linkmenu:hover
     /* posicao da imagem */
 .imghome
 {
+    display: inline-block;
     margin-bottom: 40px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 }
+
+
+ /* posicao da imagem
+ 
+.imghome
+{
+    display: inline-block;/*uma div do lado da outra*/
+    /* margin-left: 100px;
+    margin-right: 0px;
+           
+}  */
+ 
+
 
 /* @media all and ( max-width: 500px ) */
