@@ -1,5 +1,5 @@
 
-    
+    // inicio do comando js para habilitar o menu responsivo
      var nav = document.getElementById('navlist');
 
      function toggleNav() {       
@@ -18,6 +18,5 @@
      }
  
      window.addEventListener("resize", windowResizeHandler);
- 
+ // final do comando js para habilitar o menu responsivo
 
-    //  nav.style.display === ""
