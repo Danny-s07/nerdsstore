@@ -92,18 +92,65 @@ a.linkmenu:hover
 
 }
 
-.compramulher
+.tituloc /*nome dos itens*/
 {
+    text-align: center;
+    font-weight: bold;
+}
+.compras /*nome do formulario onde estao as opcoes de escolha*/
+{
+    font-size: 20px;
      width:300px;
     height: 400px;
-    background-color: aqua;
+    /* background-color: aqua; */
     float: left;
 }
 
-.bt
+.bt /*classe principal para posicionar os botoes radiun button cor*/
 {
+    display: inline-block;/*adicionado qd eu criei desenho de circulo sem ser clicavel/ se fosse radio button apenas nao precisaria disso*/
     margin-top: -80px;
+    margin-left: 5px;/*adicionado qd eu criei desenho de circulo sem ser clicavel/ se fosse radio button apenas nao precisaria disso*/
 }
+
+/*inicio das cores divs feminino*/
+#cor1f
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color:#731F3E ;
+}
+#cor2f
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color:#400A23;
+}
+#cor3f
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color:#000000 ;
+}
+#cor4f
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color:#E82C2C  ;
+}
+#cor5f
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color: #6D58BE;
+}
+
+/*final das cores dos radiuns buttons feminino*/
 
 
 /* final configuracoes da home */
