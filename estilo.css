@@ -14,6 +14,7 @@ img
 {
 	max-width: 100%;
 	height: auto;
+    
 }
 
 /* inicio configuracoes do menu */
@@ -80,6 +81,7 @@ a.linkmenu:hover
 {
     font-size: 20px;
     text-decoration: none;
+    color: #000000;
     
 }
 /* final configuracoes da home */
