@@ -82,8 +82,9 @@ a.linkmenu:hover
     text-decoration: none;
     
 }
+/* final configuracoes da home */
 
-/*configuracao para as paginas de compras (vestido,moletom e bota)*/
+/* inicio configuracao para as paginas de compras (vestido,moletom e bota)*/
 
 .conteudocompra
 {
@@ -113,8 +114,8 @@ a.linkmenu:hover
     margin-left: 5px;/*adicionado qd eu criei desenho de circulo sem ser clicavel/ se fosse radio button apenas nao precisaria disso*/
 }
 
-/*inicio das cores divs feminino*/
-.corgeral /*classe com configuracao geral dos botoes de cor*/
+/* inicio  classe com configuracao geral dos botoes de cor usado nas paginas(compravestido,compramoletom e comprabota)*/
+.corgeral 
 {
     width: 15px;
     height: 15px;
@@ -122,6 +123,9 @@ a.linkmenu:hover
     border: none; 
     cursor: pointer;
 }
+/* final classe com configuracao geral dos botoes de cor*/
+
+/*inicio das cores botoes feminino*/
 #cor1f
 {
      background-color: rgba(115,31,62,1);
@@ -144,11 +148,32 @@ a.linkmenu:hover
     background-color: #6D58BE;
 }
 
-/*final das cores dos radiuns buttons feminino*/
+/*final das cores dos  buttons feminino*/
 
+/*inicio das cores dos  buttons masculino*/
+#cor1m
+{
+    background-color: #0C0C0A;
+}
+#cor2m
+{
+    background-color: #898282;
+}
+#cor3m
+{
+    background-color: #192773;
+}
+#cor4m
+{
+    background-color: #592B1B;
+}
+#cor5m
+{
+    background-color: #5D42C8;
+}
+/*final das cores dos  buttons masculino*/
 
-/* final configuracoes da home */
-
+/*final configuracao para as paginas de compras (vestido,moletom e bota)*/
 
 /*a partir de mil pixels ele tras os risquinhos do menu responsivo, 425*/
 @media all and ( max-width: 800px ) { 
