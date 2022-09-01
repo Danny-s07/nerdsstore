@@ -71,10 +71,9 @@ a.linkmenu:hover
 .imghome
 {
     display: inline-block;/*uma div do lado da outra*/
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-right: 0px;
-    text-align: none;
-           
+              
 }
 
 .linkcompra
@@ -214,27 +213,78 @@ a.linkmenu:hover
     }
 
     /* posicao da imagem */
-.imghome
-{
-    display: inline-block;
-    margin-bottom: 40px;
-    margin-left: 10px;
-    text-align: center;
-}
+
+    
 
 }
 
-
- /* posicao da imagem
- 
-.imghome
+/*todas as telas responsivas config de imagem*/
+@media (max-width: 1400px)
 {
-    display: inline-block;/*uma div do lado da outra*/
-    /* margin-left: 100px;
-    margin-right: 0px;
-           
-}  */
- 
+    .imghome
+    {
+        margin-left: 90px;
+    }
+}
+@media (max-width: 1440px)
+{
+    .imghome
+    {
+        margin-left: 90px;
+    }
+}
+@media (max-width: 1200px)
+{
+    .imghome
+    {
+        margin-left: 70px;
+    }
 
+    #navlist li {
+         padding: 1.3em;
+        
+    }
+}
+
+@media (max-width: 768px)
+{
+    .imghome
+    {
+        margin-left: 60px;
+    }
+   
+}
+
+@media (max-width: 576px)
+{
+    .imghome
+    {
+        margin-left: 140px;
+    }
+}
+
+@media (max-width: 425px)
+{
+    .imghome
+    {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 375px)
+{
+    .imghome
+    {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 320px)
+{
+    .imghome
+    {
+        margin-left: 10px;
+    }
+}
 
 /* @media all and ( max-width: 500px ) */
